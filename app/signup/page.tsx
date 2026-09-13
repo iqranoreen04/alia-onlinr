@@ -1,0 +1,3 @@
+import Link from 'next/link'
+import { Shell } from '@/components/site-shell'
+export default function SignupPage() { return <Shell><main className="mx-auto max-w-2xl px-5 py-20 text-center lg:py-28"><p className="text-xs font-bold uppercase tracking-[.22em] text-primary">Welcome to Alia Online</p><h1 className="mt-5 font-serif text-5xl">Your next chapter starts here.</h1><p className="mx-auto mt-5 max-w-lg leading-7 text-muted-foreground">Explore the catalog, find your course, and tell us what you want to make next.</p><Link href="/register" className="mt-8 inline-flex rounded-full bg-primary px-6 py-3.5 font-bold text-primary-foreground">Register your interest</Link></main></Shell> }
